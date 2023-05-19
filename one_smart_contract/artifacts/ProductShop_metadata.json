@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "estates",
+				"outputs": [
+					{
+						"internalType": "contract ProductShop",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "smth",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"one_smart_contract/contr.sol": "ProductShop"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"one_smart_contract/contr.sol": {
+			"keccak256": "0xecfbc9b813b3c1f74656cf2a9d5b37fd608e4114ecfabef40ea50c1316c18e68",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://04a1236145758d939ea49d063e46b38b591ef1b0e5a1d672b4f81fd62a0818c8",
+				"dweb:/ipfs/QmPYZNVcRKvANC9BWa8UhaWHAAV3LExeLuAHN3gcMjK7do"
+			]
+		}
+	},
+	"version": 1
+}
